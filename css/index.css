@@ -1,0 +1,240 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #DDC2A4;
+}
+
+.espacioinicio {
+  display: block;
+  width: 350px;
+  margin: auto;
+}
+
+.ImgGirasolInicio {
+  display: block;
+  width: 350px;
+  margin-top: 70px;
+
+}
+
+.ImgGirasolInicio:hover{
+  border-radius: 50%;
+  box-shadow: 0 3px 3px #ffffff;
+}
+
+.ImgMeliNiceFont {
+  display: block;
+  width: 250px;
+  margin: auto;
+  margin-bottom: 20px;
+
+}
+
+li {
+  text-align: center;
+}
+
+.NavPrincipal {
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  width: 600px;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  margin-bottom: 50px;
+  border-radius: 3ch;
+  box-shadow: 0 3px 3px #878686;
+  font-family: 'Libre Baskerville', serif;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  transition: 0.3s;
+
+}
+
+.NavPrincipal:hover {
+  background-color:  #faba17;
+  transition: 0.5s;
+}
+
+.SubnavCM{
+  display: inline-block;
+  color: black;
+  line-height: 50px;
+  background-color: white;
+  width: 300px;
+  height: 50px;
+  border-radius: 3ch;
+  margin-bottom: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.SubnavMD{
+  display: inline-block;
+  color: black;
+  line-height: 50px;
+  background-color: white;
+  width: 300px;
+  height: 50px;
+  border-radius: 3ch;
+  margin-bottom: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.SubnavV{
+  display: inline-block;
+  color: black;
+  line-height: 50px;
+  background-color: white;
+  width: 300px;
+  height: 50px;
+  border-radius: 3ch;
+  margin-bottom: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.SubnavCM:hover {
+  color: #faba17;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.SubnavMD:hover{
+  color: #faba17;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.SubnavV:hover{
+  color: #faba17;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.SN {
+  display: none;
+}
+
+.mhor{
+  width: 600px;
+  margin: auto;
+}
+
+.mhor:hover .SN {
+  display: block;
+}
+
+header nav img {
+  width: 50px;
+  position: absolute;
+  margin-top: 11px;
+  margin-left: 12px;
+}
+
+.InstagramInicio {
+  display: block;
+  text-align: center;
+  color: #6A4933;
+  margin-bottom: 30px;
+  font-family: 'Edu TAS Beginner', cursive;
+  font-size: 22px;
+  transition: 0.8s;
+}
+
+.InstagramInicio:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+footer {
+  background-color: #6A4933;
+  height: 60px;
+}
+
+p {
+  text-align: center;
+  line-height: 60px;
+  font-family: 'Libre Baskerville', serif;
+  color: rgba(0, 0, 0, 0.831);
+  font-size: 15px;
+}
+
+/*---------------phone-and-tablet-----------------*/
+@media (min-width: 481px) and (max-width: 630px) {
+  
+  /*------------------inicio--------------*/
+
+  .NavPrincipal{
+    width: 440px;
+  }
+  
+  .mhor{
+    width: 440px;
+  }
+  
+}
+
+/*-------------------phone----------------------------*/
+@media screen and (max-width: 480px) {
+
+  /*------------------inicio--------------*/
+  
+  .ImgGirasolInicio {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+  
+  }
+
+  .ImgMeliNiceFont{
+    width: 210px;
+  }
+
+  .NavPrincipal{
+    width: 350px;
+    height: 60px;
+    line-height: 65px;
+  }
+  
+  .mhor{
+    width: 350px;
+  }
+
+  .SubnavCM{
+    width: 240px;
+  }
+
+  .SubnavMD{
+    width: 240px;
+  }
+
+  .SubnavV{
+    width: 240px;
+  }
+
+  .SubnavV:hover{
+    color: #faba17;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  header nav img{
+    width: 43px;
+    margin-top: 10px;
+    align-items: normal;
+  }
+}

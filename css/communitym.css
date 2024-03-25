@@ -1,0 +1,359 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'gistesy';
+    src: url('../fonts/gistesy.ttf') format('truetype');
+    
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.oficinapc{
+    width: 100%;
+}
+
+.oficinamv{
+    display: none;
+}
+
+.contentmelcirc{
+    display: flex;
+    justify-content: center;
+}
+
+.melicirculo{
+    display: none;
+}
+
+#h1{
+    color: #733702;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.text{
+    text-align: center;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    z-index: 10;
+    margin-top: 100px;
+}
+
+.h2{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+}
+
+.parraftosubh2{
+    text-align: center;
+}
+
+.combop{
+    width: 35%;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+
+.combop:hover{
+    width: 40%;
+    transition: 0.5s;
+}
+
+.comboc{
+    width: 35%;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+
+.comboc:hover{
+    width: 40%;
+    transition: 0.5s;
+}
+
+.combopu{
+    width: 35%;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+
+.combopu:hover{
+    width: 40%;
+    transition: 0.5s;
+}
+
+.logw{
+    width: 70px;
+    margin: auto;
+    display: flex;
+    transition: 0.5s;
+}
+
+.logw:hover{
+    width: 75px;
+    transition: 0.5s;
+}
+
+.consulta{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.fondogris{
+    height: 2140px;
+    background-image: url(../img/fondogris.svg);
+    background-repeat: no-repeat;
+    background-size: auto 2140px;
+
+}
+
+.w{
+    color: #ffffff00;
+    margin-top: 90px;
+}
+
+.iconfondo{
+    position: absolute;
+    z-index: 5;
+}
+
+.contenticof{
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.h4f{
+    position: absolute;
+    z-index: 5;
+    width: 300px;
+    margin-top: 200px;
+}
+
+.boton{
+    position: absolute;
+    padding: 0px 20px;
+    font-family: "gistesy";
+    font-size: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 3px solid #F2B705;
+    color: #F2B705;
+    background-color: #ffffff00;
+    border-radius: 15px;
+    transition: 0.5s;
+    width: 150px;
+    text-align: center;
+}
+
+.boton:hover{
+    cursor: pointer;
+    border: 3px solid #ffffff00;
+    color: #ffffff;
+    background-color: #F2B705;
+    transition: 0.5s;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.cafecito{
+    position: absolute;
+    z-index: 5;
+    margin-top: 150px;
+    font-family: "fira sans";
+    color: black;
+}
+
+.contentcafe{
+    display: flex;
+    justify-content: center;
+}
+
+.melicompu{
+    position: absolute;
+    z-index: 5;
+    margin-top: 200px;
+    width: 500px;
+}
+
+.contentmelicompu{
+    display: flex;
+    justify-content: right;
+}
+
+.card{
+    margin-top: 150px;
+}
+
+#card3{
+    display: none;
+}
+
+#card4{
+    display: none;
+}
+
+.conteiner_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+footer {
+    background-color: #6A4933;
+    height: 60px;
+    margin-top: 50px;
+}
+  
+.footerp {
+    text-align: center;
+    line-height: 60px;
+    font-family: 'Libre Baskerville', serif;
+    color: rgba(0, 0, 0, 0.831);
+    font-size: 15px;
+}
+
+/*---------------tablet-and-laptop-----------------*/
+@media (min-width: 500px) and (max-width: 800px) {
+  
+    /*------------------inicio--------------*/
+  
+    .conteiner_card{
+        display: flex;
+        margin-top: 150px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .combop{
+        width: 400px;
+    }
+
+    .combop:hover{
+        width: 430px;
+    }
+
+    .comboc{
+        width: 400px;
+    }
+
+    .comboc:hover{
+        width: 430px;
+    }
+
+    .combopu{
+        width: 400px;
+    }
+
+    .combopu:hover{
+        width: 430px;
+    }
+
+
+    
+  }
+
+/*-------------------phone----------------------------*/
+@media screen and (max-width: 499px) {
+
+    /*------------------inicio--------------*/
+    
+    .conteiner_card{
+        display: flex;
+        margin-top: 200px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .combop{
+        width: 300px;
+    }
+
+    .combop:hover{
+        width: 330px;
+    }
+
+    .comboc{
+        width: 300px;
+    }
+
+    .comboc:hover{
+        width: 330px;
+    }
+
+    .combopu{
+        width: 300px;
+    }
+
+    .combopu:hover{
+        width: 330px;
+    }
+
+    .logw{
+        width: 60px;
+    }
+
+    .melicompu{
+        width: 100%;
+    }
+
+    #card1{
+        display: none;
+    }
+
+    #card2{
+        display: none;
+    }
+
+    #card3{
+        display: flex;
+    }
+
+    #card4{
+        display: flex;
+    }
+
+    .text{
+        margin-right: 5vh;
+        margin-left: 5vh;
+    }
+
+    .fondogris{
+        height: 1875px;
+    }
+
+    #h1{
+        font-size: 28px;
+    }
+
+
+
+    
+    
+    
+}
