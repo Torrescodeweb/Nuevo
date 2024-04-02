@@ -15,6 +15,25 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.content_whatsapp{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+  }
+  
+  .whatsapp_static{
+    width: 60px;
+    position: fixed;
+    margin-top: 40vh;
+    transition: 0.5s;
+    z-index: 100;
+}
+  
+.whatsapp_static:hover{
+    width: 65px;
+    transition: 0.5s;
+}
+
 .oficinapc{
     width: 100%;
 }
@@ -72,6 +91,12 @@
 .combop:hover{
     width: 40%;
     transition: 0.5s;
+}
+
+.whatsapp_marron{
+    display: flex;
+    width: 70px;
+    margin: auto;
 }
 
 .comboc{

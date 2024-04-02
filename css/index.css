@@ -11,6 +11,24 @@ body {
   background-color: #DDC2A4;
 }
 
+.content_whatsapp{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.whatsapp_static{
+  width: 60px;
+  position: fixed;
+  margin-top: 40vh;
+  transition: 0.5s;
+}
+
+.whatsapp_static:hover{
+  width: 65px;
+  transition: 0.5s;
+}
+
 .espacioinicio {
   display: block;
   width: 350px;

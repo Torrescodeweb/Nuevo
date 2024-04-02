@@ -17,6 +17,25 @@
   src: url('../fonts/Hortensia.ttf') format('truetype');
 }
 
+.content_whatsapp{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.whatsapp_static{
+  width: 60px;
+  position: fixed;
+  margin-top: 40vh;
+  transition: 0.5s;
+  z-index: 100;
+}
+
+.whatsapp_static:hover{
+  width: 65px;
+  transition: 0.5s;
+}
+
 .pompiere-regular {
   font-family: "Pompiere", sans-serif;
   font-weight: 400;
